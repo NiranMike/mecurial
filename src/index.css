@@ -5,6 +5,61 @@
 @tailwind utilities;
 
 
+
+@font-face {
+  font-family: BWGradualBold;
+  src: url(assets/fonts/BwGradualDEMO/BwGradualDEMO-Bold.otf);
+}
+
+@font-face {
+  font-family: BWGradualRegular;
+  src: url(assets/fonts/BwGradualDEMO/BwGradualDEMO-Regular.otf);
+}
+
+@font-face {
+  font-family: BWGradualLight;
+  src: url(assets/fonts/BwGradualDEMO/BwGradualDEMO-Light.otf);
+}
+
+@font-face {
+  font-family: AeonikBold;
+  src: url(assets/fonts/Aeonik-/Aeonik-Bold.otf);
+}
+
+@font-face {
+  font-family: AeonikMedium;
+  src: url(assets/fonts/Aeonik-/Aeonik-Medium.otf);
+}
+
+@font-face {
+  font-family: AeonikLight;
+  src: url(assets/fonts/Aeonik-/Aeonik-Light.otf);
+}
+
 *{
-  font-family: "Poppins", sans-serif;
+  font-family: Inter;
+}
+
+.bwmgradual-bold{
+  font-family: BWGradualBold;
+}
+
+.bwmgradual-light{
+  font-family: BWGradualLight;
+}
+
+.bwmgradual-medium{
+  font-family: BWGradualMedium;
+}
+
+.aeonik-bold{
+  font-family: AeonikBold;
+}
+
+.aeonik-light{
+  font-family: AeonikLight;
+}
+
+.aeonik-medium{
+  font-family: AeonikMedium;
 }
