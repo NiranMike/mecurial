@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable no-unused-vars */
 import { motion, useInView } from 'framer-motion';
 import { useInView as View } from 'react-intersection-observer'; // Import useInView from react-intersection-observer package
 

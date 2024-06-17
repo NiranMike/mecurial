@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { db } from '../config/firebase.config';
@@ -35,10 +36,10 @@ const ContactForm = () => {
       };
 
       await emailjs.send(
-        'service_lgw7dnt', //  service_ID
-        'template_smwthok', // template_ID
+        process.env.REACT_APP_SERVICE_ID, //  service_ID
+        process.env.REACT_APP_TEMPLATE_ID, // template_ID
         templateParams,
-        "hGxOtpjpQ3oOprlMT" // user_ID
+        process.env.REACT_APP_USER_ID //  user_ID
       );
 
       setShowModal(true);
