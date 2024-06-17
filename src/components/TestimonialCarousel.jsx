@@ -128,11 +128,17 @@ const TestimonialCarousel = () => {
           cursor: pointer;
           transition: background 0.3s;
         }
+        
+        .custom-prev-arrow:active,
+        .custom-next-arrow:active {
+          background: blue;
+          
+        }
 
-        .custom-prev-arrow.clicked,
+        {/* .custom-prev-arrow.clicked,
         .custom-next-arrow.clicked {
           background: blue;
-        }
+        } */}
 
         .custom-dots .dot {
           margin: 0 5px;

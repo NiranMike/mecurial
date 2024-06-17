@@ -27,7 +27,7 @@ const Services = () => {
         Our Services
       </p>
       <motion.div
-        className="grid gap-8 lg:grid-cols-2 xl:grid-cols-3 justify-center mx-4 md:mx-8 lg:mx-20"
+        className="flex lg:justify-between lg:px-[6rem] flex-col gap-5 lg:flex-row items-center"
         initial="hidden"
         animate={isInView ? "visible" : "hidden"}
         variants={containerVariants}

@@ -16,9 +16,9 @@ const MarketingSection = () => {
         animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }}
         transition={{ duration: 0.8 }}
       >
-        <div className="flex items-center gap-3 mb-10 bg-[#EBEB8C] p-2 lg:p-3 lg:rounded-[20px]">
+        <div className="flex items-center gap-3 mb-10 bg-[#EBEB8C] p-2 lg:p-3 lg:rounded-[20px] justify-center">
           <img src="check-circle.png" alt="" className="w-5 h-5 md:w-auto md:h-auto" />
-          <p className="text-sm md:text-base">say goodbye to wasted ad spend and hello to revenue-driving leads</p>
+          <p className="text-sm md:text-base text-center">say goodbye to wasted ad spend and hello to revenue-driving leads</p>
         </div>
         <div className="text-center space-y-4 lg:space-y-6 mb-5">
           <p className="font-bold text-2xl md:text-3xl lg:leading-[3.8rem] mt-5 text-center bwmgradual-bold">Get Qualified Leads and increase your monthly revenue</p>
@@ -30,7 +30,7 @@ const MarketingSection = () => {
         animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }}
         transition={{ duration: 0.8, delay: 0.2 }}
       >
-        <div className="bg-[#E9EAFF] py-10 md:py-20 flex flex-col md:flex-row justify-between rounded-2xl px-6 md:px-12 font-bold gap-5 relative">
+        <div className="bg-[#E9EAFF] py-10 md:py-20 flex flex-col md:flex-row justify-between rounded-2xl px-6 md:px-12 font-bold gap-5 relative shadow-2xl hover:scale-95 transition-all">
           <div className="offer-banner absolute top-8 left-3 px-5 py-1 text-white text-xs md:text-sm">Ongoing Offer</div>
           <div className="md:w-1/2">
             <p className="text-xl md:text-2xl bwmgradual-bold">Test drive our solutions</p>

@@ -14,6 +14,16 @@ const ContactForm = () => {
     message: ''
   });
   const [showModal, setShowModal] = useState(false);
+  const [loading, setLoading] = useState(false);
+
+  const serviceID = import.meta.env.VITE_SERVICE_ID;
+  const templateID = import.meta.env.VITE_TEMPLATE_ID;
+  const userID = import.meta.env.VITE_USER_ID;
+
+  if (!serviceID || !templateID || !userID) {
+    console.error("Environment variables are not set correctly.");
+  }
+
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -22,6 +32,7 @@ const ContactForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
 
     try {
       const contactsCollection = collection(db, 'contacts');
@@ -36,16 +47,26 @@ const ContactForm = () => {
       };
 
       await emailjs.send(
-        process.env.REACT_APP_SERVICE_ID, //  service_ID
-        process.env.REACT_APP_TEMPLATE_ID, // template_ID
+        serviceID,
+        templateID, 
         templateParams,
-        process.env.REACT_APP_USER_ID //  user_ID
+        userID 
       );
 
       setShowModal(true);
+      setFormData({
+        name: "",
+        businessName: "",
+        email: "",
+        phone: "",
+        message: "",
+      })
+
     } catch (error) {
       console.error("Error sending email: ", error);
       alert('Failed to send message. Please try again.');
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -108,12 +129,20 @@ const ContactForm = () => {
             className="w-full bg-[#050BA5] text-white py-2 rounded hover:bg-blue-700"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            disabled={loading}
           >
-            Reach out to our experts
+            {loading ? 'Submitting...' : 'Reach out to our experts'}
           </motion.button>
         </form>
       </motion.div>
-      
+
+      {/* Loader */}
+      {loading && (
+        <div className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50 z-50">
+          <div className="loader"></div>
+        </div>
+      )}
+
       {/* Modal */}
       {showModal && (
         <motion.div
@@ -134,21 +163,21 @@ const ContactForm = () => {
             <h2 className="text-lg md:text-xl lg:text-2xl font-bold mb-4 bwmgradual-bold text-[#3A3A3A] text-center">Your message has been received</h2>
             <p className="text-sm md:text-base lg:text-lg text-[#3A3A3A] text-center aeonik-light">Stay tuned, our team of experts will reach out to you soon</p>
             <motion.button
-            className="bg-transparent border-[1px] border-[#050BA5] text-[#050BA5] px-4 py-2 rounded mt-4 w-full relative overflow-hidden"
-            onClick={() => setShowModal(false)}
-            initial={{ color: '#050BA5' }}
-            whileHover={{ color: 'white' }}
-            transition={{ duration: 0.9 }}
-          >
-            <motion.div
-              className="absolute inset-0 bg-[#050BA5] z-0"
-              initial={{ width: 0 }}
-              animate={{ width: '100%' }}
-              exit={{ width: 0 }}
+              className="bg-transparent border-[1px] border-[#050BA5] text-[#050BA5] px-4 py-2 rounded mt-4 w-full relative overflow-hidden"
+              onClick={() => setShowModal(false)}
+              initial={{ color: '#050BA5' }}
+              whileHover={{ color: 'white' }}
               transition={{ duration: 0.9 }}
-            />
-            <span className="relative z-10 text-white">Close</span>
-          </motion.button>
+            >
+              <motion.div
+                className="absolute inset-0 bg-[#050BA5] z-0"
+                initial={{ width: 0 }}
+                animate={{ width: '100%' }}
+                exit={{ width: 0 }}
+                transition={{ duration: 0.9 }}
+              />
+              <span className="relative z-10 text-white">Close</span>
+            </motion.button>
           </motion.div>
         </motion.div>
       )}

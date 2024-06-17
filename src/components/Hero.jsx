@@ -8,7 +8,7 @@ const Hero = () => {
       style={{ backgroundImage: `url('/hero.png')` }}
     >
       <div className="absolute inset-0 bg-black opacity-50 -z-10"></div>
-      <div className="relative z-10 flex flex-col justify-center items-center w-full text-center pt-12 md:pt-24 space-y-6 md:space-y-10 px-4">
+      <div className="relative z-10 flex flex-col items-center justify-center w-full text-center pt-12 md:pt-24 space-y-6 md:space-y-10 px-4 hero-div">
         <motion.div
           className="max-w-[900px] px-4"
           initial={{ opacity: 0, y: 50 }}
