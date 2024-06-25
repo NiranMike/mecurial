@@ -75,7 +75,7 @@ const TestimonialCarousel = () => {
       <Slider ref={sliderRef} {...settings}>
         {testimonials.map((testimonial, index) => (
           <div key={index} className="p-4 md:p-8">
-            <div className="border-2 border-black rounded-lg p-4 md:p-6 h-full flex flex-col justify-between">
+            <div className="border-[1px] border-black rounded-lg p-4 md:p-6 h-full flex flex-col justify-between">
               <div>
                 <div className="text-3xl md:text-4xl mb-4 bwmgradual-bold">“</div>
                 <p className="text-lg md:text-xl font-bold mb-4 bwmgradual-bold">{testimonial.quote}</p>
@@ -89,9 +89,9 @@ const TestimonialCarousel = () => {
           </div>
         ))}
       </Slider>
-      <div className="custom-controls flex items-center justify-end mt-4 absolute bottom-0 right-0 p-4">
+      <div className="custom-controls flex items-center justify-end mt-8 absolute -bottom-1 right-0 p-4">
         <button
-          className={`custom-prev-arrow mx-2 ${clickedButton === 'prev' ? 'clicked' : ''}`}
+          className={`custom-prev-arrow mx-2 ${clickedButton === 'prev' ? 'clicked ' : ''}`}
           onClick={handlePrev}
         >
           &lt;
@@ -137,7 +137,7 @@ const TestimonialCarousel = () => {
 
         {/* .custom-prev-arrow.clicked,
         .custom-next-arrow.clicked {
-          background: blue;
+          background: blue !important;
         } */}
 
         .custom-dots .dot {

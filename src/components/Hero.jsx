@@ -4,7 +4,7 @@ import RateCard from './RateCard';
 const Hero = () => {
   return (
     <div 
-      className="relative h-screen bg-cover bg-center hero" 
+      className="relative h-screen bg-cover bg-center flex flex-col items-center justify-center" 
       style={{ backgroundImage: `url('/hero.png')` }}
     >
       <div className="absolute inset-0 bg-black opacity-50 -z-10"></div>

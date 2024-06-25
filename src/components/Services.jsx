@@ -22,18 +22,18 @@ const Services = () => {
   };
 
   return (
-    <div id='services' className="pt-16 md:pt-32 lg:pt-[240px]" ref={ref}>
+    <div id='services' className="pt-16 md:pt-32 p lg:py-[240px]" ref={ref}>
       <p className="text-gray-900 font-bold text-2xl md:text-3xl lg:text-4xl text-center pb-8 md:pb-12 lg:pb-16 bwmgradual-bold">
         Our Services
       </p>
       <motion.div
-        className="flex lg:justify-between lg:px-[6rem] flex-col gap-5 lg:flex-row items-center"
+        className="flex lg:justify-center lg:px-[6rem] flex-col gap-7 2xl:gap-14 lg:flex-row items-center"
         initial="hidden"
         animate={isInView ? "visible" : "hidden"}
         variants={containerVariants}
       >
         <motion.div
-          className="bg-red-200 rounded-[53px] py-16 px-8 w-[300px]  space-y-[90px]  lg:w-[350px]"
+          className="bg-red-200 shadow-sm rounded-[53px] py-10 lg:py-16 px-8 w-[250px]  space-y-[90px]  lg:w-[350px]"
           variants={itemVariants}
           transition={{ duration: 0.8 }}
           whileHover={{ scale: 1.05 }}
@@ -46,7 +46,7 @@ const Services = () => {
           </div>
         </motion.div>
         <motion.div
-          className="bg-yellow-200 rounded-[53px] py-16 px-8  space-y-[90px] w-[300px] lg:w-[350px]"
+          className="bg-yellow-200 shadow-sm rounded-[53px] lg:py-16 px-8  space-y-[90px] w-[250px] lg:w-[350px] py-10"
           variants={itemVariants}
           transition={{ duration: 0.8, delay: 0.2 }}
           whileHover={{ scale: 1.05 }}
@@ -59,7 +59,7 @@ const Services = () => {
           </div>
         </motion.div>
         <motion.div
-          className="bg-blue-200 rounded-[53px] py-16 px-8  space-y-[90px] w-[300px] lg:w-[350px]"
+          className="bg-blue-200 shadow-sm rounded-[53px] py-10 lg:py-16 px-8  space-y-[90px] w-[250px] lg:w-[350px]"
           variants={itemVariants}
           transition={{ duration: 0.8, delay: 0.4 }}
           whileHover={{ scale: 1.05 }}

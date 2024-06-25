@@ -30,12 +30,12 @@ const MarketingSection = () => {
         animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }}
         transition={{ duration: 0.8, delay: 0.2 }}
       >
-        <div className="bg-[#E9EAFF] py-10 md:py-20 flex flex-col md:flex-row justify-between rounded-2xl px-6 md:px-12 font-bold gap-5 relative shadow-2xl hover:scale-95 transition-all">
+        <div className="bg-[#E9EAFF] py-10 md:py-20 flex flex-col md:flex-row justify-between rounded-2xl px-6 md:px-12 font-bold gap-5 relative shadow-sm">
           <div className="offer-banner absolute top-8 left-3 px-5 py-1 text-white text-xs md:text-sm">Ongoing Offer</div>
           <div className="md:w-1/2">
-            <p className="text-xl md:text-2xl bwmgradual-bold">Test drive our solutions</p>
+            <p className="text-xl md:text-2xl bwmgradual-bold z-50 text-center lg:text-start">Test drive our solutions</p>
             <p className="font-normal text-lg md:text-xl text-[#3A3A3A] leading-6 mt-4">Experience our expertise with a 2-week free trial</p>
-            <button className="px-8 md:px-12 rounded-lg mt-5 py-3 bg-[#050BA5] text-white text-lg md:text-xl font-medium">
+            <button className="px-8 md:px-12 rounded-lg mt-5  py-2 lg:py-3 bg-[#050BA5] text-white text-lg md:text-xl font-medium">
               Book a call
             </button>
           </div>
