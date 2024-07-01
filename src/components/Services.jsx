@@ -55,7 +55,7 @@ const Services = () => {
           <img src="f (2).png" className="w-16 md:w-20 mb-4" alt="Outreach Team Icon" />
           <div className="space-y-2">
             <p className="text-yellow-600 font-medium text-lg md:text-xl">Best Outreach Team</p>
-            <p className="text-yellow-600 font-normal">Crafting compelling campaigns that drive real results</p>
+            <p className="text-yellow-600 font-normal">Building relationships & identifying new opportunities</p> 
           </div>
         </motion.div>
         <motion.div
@@ -67,8 +67,8 @@ const Services = () => {
         >
           <img src="f (1).png" className="w-16 md:w-20 mb-4" alt="Media Buyer Icon" />
           <div className="space-y-2">
-            <p className="text-blue-600 font-medium text-lg md:text-xl">Best Media Buyer</p>
-            <p className="text-blue-600 font-normal">Crafting compelling campaigns that drive real results</p>
+            <p className="text-blue-600 font-medium text-lg md:text-xl">Best Media Buyers</p>
+            <p className="text-blue-600 font-normal">Maximizing ad spend with expert placements & rates</p>
           </div>
         </motion.div>
       </motion.div>

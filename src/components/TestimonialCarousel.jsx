@@ -5,21 +5,21 @@ import "slick-carousel/slick/slick-theme.css";
 
 const testimonials = [
   {
-    quote: "I scaled up my company’s monthly revenue by 45%",
-    description: "Error voluptate adipisci. Quas a delectus optio ut. Non consequatur voluptatem quia rerum cum similique enim.",
-    name: "Orimadegun Promise",
-    title: "CEO LBT (raised $5M in funding)"
+    quote: "They've taken Tonyiyke Designs to the Next level ",
+    description: "Hey Mercurial, i just wanted to give a Quick shoutout to the team for being an awesome digital company! They've really helped me take Tonyiyke Designs to the next level by amplifying my messages and bringing in new leads.",
+    name: "IKECHUKWU ANTHONY",
+    title: "CEO TONYIYKE DESIGNS (PRIVATE FUNDS)"
+  },
+  {
+    quote: "i'm so impressed with Mercurial!",
+    description: "They've been a game-changer for Nnammy's Collection, bringing in a ton of new leads and helping us grow our shoe-making business.their team is top-notch and really knows their stuff. We've seen a significant boobs in sales.",
+    name: "Charles Nnamdi",
+    title: " Nnammy's Collection "
   },
   {
     quote: "I scaled up my company’s monthly revenue by 45%",
     description: "Error voluptate adipisci. Quas a delectus optio ut. Non consequatur voluptatem quia rerum cum similique enim.",
-    name: "Orimadegun Promise",
-    title: "CEO LBT (raised $5M in funding)"
-  },
-  {
-    quote: "I scaled up my company’s monthly revenue by 45%",
-    description: "Error voluptate adipisci. Quas a delectus optio ut. Non consequatur voluptatem quia rerum cum similique enim.",
-    name: "Orimadegun Promise",
+    name: "Orimadegun ",
     title: "CEO LBT (raised $5M in funding)"
   },
   // Add more testimonials here
