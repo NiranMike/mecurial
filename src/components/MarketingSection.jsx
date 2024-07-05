@@ -35,9 +35,11 @@ const MarketingSection = () => {
           <div className="md:w-1/2">
             <p className="text-xl md:text-2xl bwmgradual-bold z-50 text-center lg:text-start">Test drive our solutions</p>
             <p className="font-normal text-lg md:text-xl text-[#3A3A3A] leading-6 mt-4">Experience our expertise with a 2-week free trial</p>
-            <button className="px-8 md:px-12 rounded-lg mt-5  py-2 lg:py-3 bg-[#050BA5] text-white text-lg md:text-xl font-medium">
-              Book a call
-            </button>
+            <a href="#contact">
+              <button className="px-8 md:px-12 rounded-lg mt-5  py-2 lg:py-3 bg-[#050BA5] text-white text-lg md:text-xl font-medium">
+                Book a call
+              </button>
+            </a>
           </div>
           <div className="md:w-1/2 space-y-4">
             <motion.div

@@ -78,7 +78,7 @@ const TestimonialCarousel = () => {
       <Slider ref={sliderRef} {...settings}>
         {testimonials.map((testimonial, index) => (
           <div key={index} className="p-4 md:p-8">
-            <div className="border-[1px] border-black rounded-lg p-4 md:p-6 h-full flex flex-col justify-between">
+            <div className="border-[1px] border-black rounded-lg p-4 md:p-6 h-[500px] flex flex-col justify-between">
               <div>
                 <div className="text-3xl md:text-4xl mb-4 bwmgradual-bold">“</div>
                 <p className="text-lg md:text-xl font-bold mb-4 bwmgradual-bold">{testimonial.quote}</p>
