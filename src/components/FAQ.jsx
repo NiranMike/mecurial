@@ -4,36 +4,33 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const faqData = [
   {
-    question: 'What services do you offer?',
-    answer: 'Our free trial lasts for 2 weeks, giving you a risk-free opportunity to experience our expertise and see the results for yourself.',
+    question: "What services do you offer?",
+    answer:
+      "Our service portfolio includes digital marketing, social media management, content creation, email marketing, search engine optimization, and software solutions, all designed to drive growth and success for our clients.",
   },
   {
-    question: 'How long does the free trial last?',
-    answer: 'Our free trial lasts for 2 weeks, giving you a risk-free opportunity to experience our expertise and see the results for yourself.',
+    question: "How much does it cost after the trial?",
+    answer: "Our pricing plans are customized based on the specific needs and requirements of each client. After the trial, we'll work with you to understand your unique needs and provide a personalized quote that aligns with your goals and budget ." ,
   },
   {
-    question: 'What kind of results can I expect?',
-    answer: 'Our free trial lasts for 2 weeks, giving you a risk-free opportunity to experience our expertise and see the results for yourself.',
+    question: "What kind of results can I expect?",
+    answer:
+      "Our free trial lasts for 2 weeks, giving you a risk-free opportunity to experience our expertise and see the results for yourself.",
   },
   {
-    question: 'How much does it cost after the trial?',
-    answer: 'Our free trial lasts for 2 weeks, giving you a risk-free opportunity to experience our expertise and see the results for yourself.',
+    question: "How much does it cost after the trial?",
+    answer:
+      "Our free trial lasts for 2 weeks, giving you a risk-free opportunity to experience our expertise and see the results for yourself.",
   },
   {
-    question: 'What services do you offer?',
-    answer: 'Our free trial lasts for 2 weeks, giving you a risk-free opportunity to experience our expertise and see the results for yourself.',
+    question: "What services do you offer?",
+    answer:
+      "Our free trial lasts for 2 weeks, giving you a risk-free opportunity to experience our expertise and see the results for yourself.",
   },
   {
-    question: 'How long does the free trial last?',
-    answer: 'Our free trial lasts for 2 weeks, giving you a risk-free opportunity to experience our expertise and see the results for yourself.',
-  },
-  {
-    question: 'What kind of results can I expect?',
-    answer: 'Our free trial lasts for 2 weeks, giving you a risk-free opportunity to experience our expertise and see the results for yourself.',
-  },
-  {
-    question: 'How much does it cost after the trial?',
-    answer: 'Our free trial lasts for 2 weeks, giving you a risk-free opportunity to experience our expertise and see the results for yourself.',
+    question: "How long does the free trial last?",
+    answer:
+      "Our free trial lasts for 2 weeks, giving you a risk-free opportunity to experience our expertise and see the results for yourself.",
   },
 ];
 

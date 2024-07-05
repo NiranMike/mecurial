@@ -5,22 +5,25 @@ import "slick-carousel/slick/slick-theme.css";
 
 const testimonials = [
   {
-    quote: "They've taken Tonyiyke Designs to the Next level ",
-    description: "Hey Mercurial, i just wanted to give a Quick shoutout to the team for being an awesome digital company! They've really helped me take Tonyiyke Designs to the next level by amplifying my messages and bringing in new leads.",
+    quote: " Tonyiyke Designs is at a 100%  ",
+    description:
+      "Hey Mercurial, i just wanted to give a Quick shoutout to the team for being an awesome digital company! They've really helped me take Tonyiyke Designs to the next level by bring me quality leads",
     name: "IKECHUKWU ANTHONY",
-    title: "CEO TONYIYKE DESIGNS (PRIVATE FUNDS)"
+    title: "CEO TONYIYKE DESIGNS (PRIVATE FUNDS)",
   },
   {
     quote: "i'm so impressed with Mercurial!",
-    description: "They've been a game-changer for Nnammy's Collection, bringing in a ton of new leads and helping us grow our shoe-making business.their team is top-notch and really knows their stuff. We've seen a significant boobs in sales.",
+    description:
+      "Game-changers for Nnammy's Collection! Brought in tons of new leads, expertly growing our shoe-making business. Top-notch team, significant growth. i highly recommend them anyday because they are one of the best. ",
     name: "Charles Nnamdi",
-    title: " Nnammy's Collection "
+    title: "  Founder: Nnammy's Collection ",
   },
   {
-    quote: "I scaled up my company’s monthly revenue by 45%",
-    description: "Error voluptate adipisci. Quas a delectus optio ut. Non consequatur voluptatem quia rerum cum similique enim.",
-    name: "Orimadegun ",
-    title: "CEO LBT (raised $5M in funding)"
+    quote: " Their expertise in digital Marketing is unparalleled ",
+    description:
+      " Working with Mecurial has elevated my business significantly, boosting our online presence and sales up to 50% . Their expertise in digital marketing is unparalleled.",
+    name: "Victor Emmason ",
+    title: "CEO Apex Leap Digital",
   },
   // Add more testimonials here
 ];
