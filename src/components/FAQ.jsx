@@ -9,28 +9,29 @@ const faqData = [
       "Our service portfolio includes digital marketing, social media management, content creation, email marketing, search engine optimization, and software solutions, all designed to drive growth and success for our clients.",
   },
   {
+    question: "How long does the free trial last?",
+    answer:
+      "Our free trial lasts for 2 weeks, giving you a risk-free opportunity to experience our expertise and see the results for yourself.",
+  },
+  {
     question: "How much does it cost after the trial?",
-    answer: "Our pricing plans are customized based on the specific needs and requirements of each client. After the trial, we'll work with you to understand your unique needs and provide a personalized quote that aligns with your goals and budget ." ,
+    answer:
+      "Our pricing plans are customized based on the specific needs and requirements of each client. After the trial, we'll work with you to understand your unique needs and provide a personalized quote that aligns with your goals and budget .",
   },
   {
     question: "What kind of results can I expect?",
     answer:
-      "Our free trial lasts for 2 weeks, giving you a risk-free opportunity to experience our expertise and see the results for yourself.",
+      "Our clients typically experience significant improvements in their online presence and business growth within 1-2 weeks of engaging our services. While results may vary depending on industry and market conditions, we assure you that our expert team will diligently work to understand your unique needs and develop tailored strategies to drive optimal outcomes. We are dedicated to delivering exceptional results and fostering long-term success for your business.",
   },
   {
-    question: "How much does it cost after the trial?",
+    question: "What makes your agency unique?",
     answer:
-      "Our free trial lasts for 2 weeks, giving you a risk-free opportunity to experience our expertise and see the results for yourself.",
+      "Our expert team, customized strategies, and dedication to delivering exceptional results set us apart. Additionally, our ability to offer comprehensive software solutions, including Software as a Service (SaaS) and custom software development, makes us a one-stop-shop for businesses looking to elevate their online presence and operations.",
   },
   {
-    question: "What services do you offer?",
+    question: "Are your ad spend budget-friendly?",
     answer:
-      "Our free trial lasts for 2 weeks, giving you a risk-free opportunity to experience our expertise and see the results for yourself.",
-  },
-  {
-    question: "How long does the free trial last?",
-    answer:
-      "Our free trial lasts for 2 weeks, giving you a risk-free opportunity to experience our expertise and see the results for yourself.",
+      "Yes, we understand the importance of maximizing your ROI. Our team works closely with you to set a budget that aligns with your goals and ensures cost-effective ad spend. We offer flexible pricing models and continuously monitor and optimize your campaigns to ensure optimal performance within your budget.",
   },
 ];
 

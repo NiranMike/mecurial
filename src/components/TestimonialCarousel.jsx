@@ -14,14 +14,14 @@ const testimonials = [
   {
     quote: "i'm so impressed with Mercurial!",
     description:
-      "Game-changers for Nnammy's Collection! Brought in tons of new leads, expertly growing our shoe-making business. Top-notch team, significant growth. i highly recommend them anyday because they are one of the best. ",
+      "Game-changers for Nnammy's Collection! Brought in tons of new leads, expertly growing our shoe-making business. Top-notch team, significant growth. i highly recommend them any day because they are one of the best. ",
     name: "Charles Nnamdi",
     title: "  Founder: Nnammy's Collection ",
   },
   {
     quote: " Their expertise in digital Marketing is unparalleled ",
     description:
-      " Working with Mecurial has elevated my business significantly, boosting our online presence and sales up to 50% . Their expertise in digital marketing is unparalleled.",
+      "Working with Mecurial has elevated my business significantly, boosting our online presence and sales up to 50% . Their expertise in digital marketing is unparalleled.",
     name: "Victor Emmason ",
     title: "CEO Apex Leap Digital",
   },
@@ -78,7 +78,7 @@ const TestimonialCarousel = () => {
       <Slider ref={sliderRef} {...settings}>
         {testimonials.map((testimonial, index) => (
           <div key={index} className="p-4 md:p-8">
-            <div className="border-[1px] border-black rounded-lg p-4 md:p-6 h-[500px] flex flex-col justify-between">
+            <div className="border-[1px] border-black rounded-lg p-4 md:p-6 h-[400px] flex flex-col justify-between">
               <div>
                 <div className="text-3xl md:text-4xl mb-4 bwmgradual-bold">“</div>
                 <p className="text-lg md:text-xl font-bold mb-4 bwmgradual-bold">{testimonial.quote}</p>
