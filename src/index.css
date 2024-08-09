@@ -20,23 +20,23 @@
 }
 
 @font-face {
-  font-family: BWGradualLight;
-  src: url(assets/fonts/BwGradualDEMO/BwGradualDEMO-Light.otf);
+  font-family: MontserratLight;
+  src: url(src/assets/fonts/Montserrat/static/Montserrat-Light.ttf);
 }
 
 @font-face {
-  font-family: AeonikBold;
-  src: url(assets/fonts/Aeonik-/Aeonik-Bold.otf);
+  font-family: MontserratBold;
+  src: url(src/assets/fonts/Montserrat/static/Montserrat-Bold.ttff);
 }
 
 @font-face {
-  font-family: AeonikMedium;
-  src: url(assets/fonts/Aeonik-/Aeonik-Medium.otf);
+  font-family: MontserratMedium;
+  src: url(src/assets/fonts/Montserrat/static/Montserrat-Medium.ttf);
 }
 
 @font-face {
-  font-family: AeonikLight;
-  src: url(assets/fonts/Aeonik-/Aeonik-Light.otf);
+  font-family: MontserratLight;
+  src: url(src/assets/fonts/Montserrat/static/Montserrat-Light.ttf);
 }
 
 *{
@@ -55,16 +55,16 @@
   font-family: BWGradualMedium;
 }
 
-.aeonik-bold{
-  font-family: AeonikBold;
+.Montserrat-bold{
+  font-family: MontserratBold;
 }
 
-.aeonik-light{
-  font-family: AeonikLight;
+.Montserrat-light{
+  font-family: MontserratLight;
 }
 
-.aeonik-medium{
-  font-family: AeonikMedium;
+.Montserrat-medium{
+  font-family: MontserratMedium;
 }
 
 

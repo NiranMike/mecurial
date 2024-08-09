@@ -38,16 +38,19 @@ const faqData = [
 const FAQItem = ({ question, answer, isOpen, onClick }) => {
   return (
     <div className="border-b border-gray-200 py-4">
-      <button onClick={onClick} className="flex justify-between items-center w-full text-left">
-        <span className="text-lg font-medium aeonik-bold">{question}</span>
-        <span className="text-2xl">{isOpen ? '-' : '+'}</span>
+      <button
+        onClick={onClick}
+        className="flex justify-between items-center w-full text-left"
+      >
+        <span className="text-lg font-medium Montserrat-bold">{question}</span>
+        <span className="text-2xl">{isOpen ? "-" : "+"}</span>
       </button>
       <AnimatePresence>
         {isOpen && (
           <motion.p
-            className="mt-2 text-[#3A3A3ACC] font-normal aeonik-medium text-[1rem]"
+            className="mt-2 text-[#3A3A3ACC] font-normal  Montserrat-medium text-[1rem]"
             initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
+            animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3 }}
           >

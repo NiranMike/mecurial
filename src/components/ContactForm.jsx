@@ -78,7 +78,7 @@ const ContactForm = () => {
         transition={{ duration: 1, delay: 0.5 }}
       >
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-2 bwmgradual-bold text-center">Ready to Scale Your Business?</h2>
-        <p className="text-white mb-6 md:mb-8 lg:mb-10 aeonik-medium text-center">Let&apos;s grow your business together. Get in touch!</p>
+        <p className="text-white mb-6 md:mb-8 lg:mb-10 Montserrat-Medium text-center">Let&apos;s grow your business together. Get in touch!</p>
         <form className="space-y-4 flex flex-col text-white" onSubmit={handleSubmit}>
           <input
             type="text"
@@ -161,7 +161,7 @@ const ContactForm = () => {
               <img className='w-[60px]' src="/healthicons_yes.png" alt="" />
             </div>
             <h2 className="text-lg md:text-xl lg:text-2xl font-bold mb-4 bwmgradual-bold text-[#3A3A3A] text-center">Your message has been received</h2>
-            <p className="text-sm md:text-base lg:text-lg text-[#3A3A3A] text-center aeonik-light">Stay tuned, our team of experts will reach out to you soon</p>
+            <p className="text-sm md:text-base lg:text-lg text-[#3A3A3A] text-center Montserrat-light">Stay tuned, our team of experts will reach out to you soon</p>
             <motion.button
               className="bg-transparent border-[1px] border-[#050BA5] text-[#050BA5] px-4 py-2 rounded mt-4 w-full relative overflow-hidden"
               onClick={() => setShowModal(false)}

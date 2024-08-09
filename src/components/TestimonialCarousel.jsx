@@ -73,20 +73,35 @@ const TestimonialCarousel = () => {
   };
 
   return (
-    <div id='testimonials' className="mx-4 md:mx-[200px] my-8 md:my-[100px] relative">
-      <h2 className="text-center text-2xl md:text-3xl font-bold mb-8 bwmgradual-bold">See what others are saying about us</h2>
+    <div
+      id="testimonials"
+      className="mx-4 md:mx-[200px] my-8 md:my-[100px] relative"
+    >
+      <h2 className="text-center text-2xl md:text-3xl font-bold mb-8 bwmgradual-bold">
+        See what others are saying about us
+      </h2>
       <Slider ref={sliderRef} {...settings}>
         {testimonials.map((testimonial, index) => (
           <div key={index} className="p-4 md:p-8">
             <div className="border-[1px] border-black rounded-lg p-4 md:p-6 h-[400px] flex flex-col justify-between">
               <div>
-                <div className="text-3xl md:text-4xl mb-4 bwmgradual-bold">“</div>
-                <p className="text-lg md:text-xl font-bold mb-4 bwmgradual-bold">{testimonial.quote}</p>
-                <p className="text-[#3A3A3A] aeonik-light">{testimonial.description}</p>
+                <div className="text-3xl md:text-4xl mb-4 bwmgradual-bold">
+                  “
+                </div>
+                <p className="text-lg md:text-xl font-bold mb-4 bwmgradual-bold">
+                  {testimonial.quote}
+                </p>
+                <p className="text-[#3A3A3A]  Montserrat-light">
+                  {testimonial.description}
+                </p>
               </div>
               <div className="mt-6">
-                <p className="font-bold bwmgradual-medium">{testimonial.name}</p>
-                <p className="text-[#3A3A3A] aeonik-light font-normal">{testimonial.title}</p>
+                <p className="font-bold bwmgradual-medium">
+                  {testimonial.name}
+                </p>
+                <p className="text-[#3A3A3A]  Montserrat-light font-normal">
+                  {testimonial.title}
+                </p>
               </div>
             </div>
           </div>
@@ -94,13 +109,17 @@ const TestimonialCarousel = () => {
       </Slider>
       <div className="custom-controls flex items-center justify-end mt-8 absolute -bottom-1 right-0 p-4">
         <button
-          className={`custom-prev-arrow mx-2 ${clickedButton === 'prev' ? 'clicked ' : ''}`}
+          className={`custom-prev-arrow mx-2 ${
+            clickedButton === "prev" ? "clicked " : ""
+          }`}
           onClick={handlePrev}
         >
           &lt;
         </button>
         <button
-          className={`custom-next-arrow mx-2 ${clickedButton === 'next' ? 'clicked' : ''}`}
+          className={`custom-next-arrow mx-2 ${
+            clickedButton === "next" ? "clicked" : ""
+          }`}
           onClick={handleNext}
         >
           &gt;
@@ -110,7 +129,7 @@ const TestimonialCarousel = () => {
         {testimonials.map((_, index) => (
           <button
             key={index}
-            className={`dot ${index === currentSlide ? 'active' : ''}`}
+            className={`dot ${index === currentSlide ? "active" : ""}`}
             onClick={() => sliderRef.current.slickGoTo(index)}
           >
             {`${index + 1}`}

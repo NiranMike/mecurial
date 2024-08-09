@@ -29,7 +29,10 @@ const RateCard = () => {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <div ref={ref} className="bg-white mx-4 hidden md:block md:mx-10 shadow-md p-5 justify-center items-center text-center rounded-xl absolute left-0 right-0 bottom-[-150px] lg:bottom-[-70px]">
+    <div
+      ref={ref}
+      className="bg-white mx-4 hidden md:block md:mx-10 shadow-md p-5 justify-center items-center text-center rounded-xl absolute left-0 right-0 bottom-[-150px] lg:bottom-[-70px]"
+    >
       <motion.div
         className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 lg:gap-8"
         initial={{ opacity: 0, y: 50 }}
@@ -40,25 +43,34 @@ const RateCard = () => {
           <p className="font-bold text-xl md:text-2xl lg:text-3xl text-gray-600 bwmgradual-bold">
             {isInView && <Counter from={0} to={50} duration={2} />}K +
           </p>
-          <p className="font-normal text-sm md:text-base lg:text-lg text-gray-400 aeonik-light">Happy Clients</p>
+          <p className="font-normal text-sm md:text-base lg:text-lg text-gray-400 Montserrat-light">
+            Happy Clients
+          </p>
         </div>
         <div>
           <p className="font-bold text-xl md:text-2xl lg:text-3xl text-gray-600 bwmgradual-bold">
             +{isInView && <Counter from={0} to={434} duration={2} />}%
           </p>
-          <p className="font-normal text-sm md:text-base lg:text-lg text-gray-400 aeonik-light">Indexed Pages</p>
+          <p className="font-normal text-sm md:text-base lg:text-lg text-gray-400 Montserrat-light">
+            Indexed Pages
+          </p>
         </div>
         <div>
           <p className="font-bold text-xl md:text-2xl lg:text-3xl text-gray-600 bwmgradual-bold">
-            {isInView && <Counter from={0} to={20} duration={2} />} - {isInView && <Counter from={20} to={60} duration={2} />}%
+            {isInView && <Counter from={0} to={20} duration={2} />} -{" "}
+            {isInView && <Counter from={20} to={60} duration={2} />}%
           </p>
-          <p className="font-normal text-sm md:text-base lg:text-lg text-gray-400 aeonik-light">Sure Revenue Increase</p>
+          <p className="font-normal text-sm md:text-base lg:text-lg text-gray-400 Montserrat-light">
+            Sure Revenue Increase
+          </p>
         </div>
         <div>
           <p className="font-bold text-xl md:text-2xl lg:text-3xl text-gray-600 bwmgradual-bold">
             {isInView && <Counter from={0} to={50} duration={2} />}K +
           </p>
-          <p className="font-normal text-sm md:text-base lg:text-lg text-gray-400 aeonik-light">Successful Ads</p>
+          <p className="font-normal text-sm md:text-base lg:text-lg text-gray-400 Montserrat-light">
+            Successful Ads
+          </p>
         </div>
       </motion.div>
     </div>

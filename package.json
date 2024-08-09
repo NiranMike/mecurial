@@ -1,6 +1,6 @@
 {
   "name": "mercurial",
-  "homepage": "http://mercurialtech.co/",
+  "homepage": "https://mercurialtech.co/",
   "private": true,
   "version": "0.0.0",
   "type": "module",

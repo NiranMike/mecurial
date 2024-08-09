@@ -5,7 +5,7 @@ const ProcessSection = () => {
         <h1 className="font-bold text-white text-2xl md:text-3xl lg:text-4xl bwmgradual-bold">
           Our Proven Process for Scaling Your Business
         </h1>
-        <p className="font-normal text-lg md:text-xl text-[#D7D7D7] aeonik-medium">
+        <p className="font-normal text-lg md:text-xl text-[#D7D7D7] Montserrat-medium">
           To scale your monthly revenue by 20-60%, we use this unique process
         </p>
       </div>
@@ -16,9 +16,12 @@ const ProcessSection = () => {
             1
           </div>
           <div className="text-white">
-            <p className="font-bold text-lg md:text-xl bwmgradual-bold">Consultation</p>
-            <p className="font-normal text-base md:text-lg aeonik-light">
-              Discover your business goals and challenges with a personalized consultation
+            <p className="font-bold text-lg md:text-xl bwmgradual-bold">
+              Consultation
+            </p>
+            <p className="font-normal text-base md:text-lg  Montserrat-light">
+              Discover your business goals and challenges with a personalized
+              consultation
             </p>
           </div>
         </div>
@@ -27,9 +30,12 @@ const ProcessSection = () => {
             2
           </div>
           <div className="text-white">
-            <p className="font-bold text-lg md:text-xl bwmgradual-bold">Ad Strategy Development</p>
-            <p className="font-normal text-base md:text-lg aeonik-light">
-              Get a customized ad strategy tailored to your unique needs and objectives
+            <p className="font-bold text-lg md:text-xl bwmgradual-bold">
+              Ad Strategy Development
+            </p>
+            <p className="font-normal text-base md:text-lg  Montserrat-light">
+              Get a customized ad strategy tailored to your unique needs and
+              objectives
             </p>
           </div>
         </div>
@@ -38,9 +44,12 @@ const ProcessSection = () => {
             3
           </div>
           <div className="text-white">
-            <p className="font-bold text-lg md:text-xl bwmgradual-bold">Ad Launch and Optimization</p>
-            <p className="font-normal text-base md:text-lg aeonik-light">
-              Launch your ads and continuously optimize for maximum performance and ROI
+            <p className="font-bold text-lg md:text-xl bwmgradual-bold">
+              Ad Launch and Optimization
+            </p>
+            <p className="font-normal text-base md:text-lg  Montserrat-light">
+              Launch your ads and continuously optimize for maximum performance
+              and ROI
             </p>
           </div>
         </div>
@@ -49,9 +58,12 @@ const ProcessSection = () => {
             4
           </div>
           <div className="text-white">
-            <p className="font-bold text-lg md:text-xl bwmgradual-bold">Ongoing Support and Analysis</p>
-            <p className="font-normal text-base md:text-lg aeonik-light">
-              Receive regular support and analysis to ensure your ads stay on track and drive results
+            <p className="font-bold text-lg md:text-xl bwmgradual-bold">
+              Ongoing Support and Analysis
+            </p>
+            <p className="font-normal text-base md:text-lg  Montserrat-light">
+              Receive regular support and analysis to ensure your ads stay on
+              track and drive results
             </p>
           </div>
         </div>
@@ -60,14 +72,16 @@ const ProcessSection = () => {
             5
           </div>
           <div className="text-white">
-            <p className="font-bold text-lg md:text-xl bwmgradual-bold">Results and Scaling</p>
-            <p className="font-normal text-base md:text-lg aeonik-light">
-              Achieve significant revenue growth and scale your business with our expert guidance
+            <p className="font-bold text-lg md:text-xl bwmgradual-bold">
+              Results and Scaling
+            </p>
+            <p className="font-normal text-base md:text-lg  Montserrat-light">
+              Achieve significant revenue growth and scale your business with
+              our expert guidance
             </p>
           </div>
         </div>
       </div>
-      
     </div>
   );
 };
